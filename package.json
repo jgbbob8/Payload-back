@@ -49,5 +49,6 @@
     "ignoredBuiltDependencies": [
       "esbuild"
     ]
-  }
+  },
+  "packageManager": "pnpm@10.8.0"
 }
