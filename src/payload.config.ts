@@ -44,6 +44,7 @@ export default buildConfig({
   db: mongooseAdapter({
     url: process.env.DATABASE_URI || '',
   }),
+
   sharp,
   plugins: [
     payloadCloudPlugin(),
